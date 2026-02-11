@@ -36,6 +36,7 @@ const App = () => {
       <div className="flex flex-wrap gap-4 h-[82%]">{printUserData}</div>
       <div className="flex justify-center gap-4 items-center p-4 ">
         <button
+        style={{opacity:index==1 ? 0.5 : 1}}
           onClick={() => {
             console.log("Previous button click");
             if (index > 1) {
